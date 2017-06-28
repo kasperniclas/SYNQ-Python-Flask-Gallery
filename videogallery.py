@@ -115,8 +115,8 @@ def posts():
 # Page for uploading a new video
 @app.route("/upload/")
 def upload():
-	video_id = video.create()["video_id"]
-	uploader_url = video.uploader(video_id)["uploader_url"]
+	video_id = videoAPI.create()["video_id"]
+	uploader_url = videoAPI.uploader(video_id)["uploader_url"]
 	return template('upload.html', video_id=video_id, uploader_url = uploader_url)
 
 
