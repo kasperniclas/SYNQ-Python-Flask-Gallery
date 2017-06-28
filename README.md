@@ -2,7 +2,7 @@
 
 A simple video gallery made using Python with Flask, showcasing the [SYNQ Python API](https://github.com/SYNQfm/SYNQ-Python).
 
-##deply
+## deploy
 
 This app is Heroku ready!
 
