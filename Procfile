@@ -1,1 +1,1 @@
-web: gunicorn videobooru:app
+web: gunicorn videogallery:app
