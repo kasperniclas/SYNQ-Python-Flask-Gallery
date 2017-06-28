@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title>SYNQ Video Gallery</title>
+		<link href="/static/style.css" rel="stylesheet">
+		<script src="/static/app.js" ></script>
+	</head>
+	<body>
+		<div class="center-line">
+			<div class="center-box">
+				<h1>SYNQ Video Gallery</h1>
+				<form onsubmit="Search();" action="javascript:void(0);">
+					<input type="text" id="search", name="search" placeholder="Search">
+				</form>
+				<table>
+					<tr>
+						<td>
+							<a href="/posts/">
+								{{ num_uploaded }} videos
+							</a>
+						</td>
+						<td class="filler"></td>
+						<td>
+							<a href="/upload/">
+								Upload Video
+							</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

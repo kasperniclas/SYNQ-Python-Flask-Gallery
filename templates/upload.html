@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<title>SYNQ Video GAllery</title>
+		<link href="/static/style.css" rel="stylesheet">
+		<script src="/static/app.js" ></script>
+	</head>
+	<body>
+		<div class="upload-button">
+			<a href="/upload/">
+				<h2>
+					Upload Video
+				</h2>
+			</a>
+		</div>
+		<div class="title">
+			<h1>
+				<a href="/">
+					SYNQ Video Gallery
+				</a>
+			</h1>
+		</div>
+		<div class="top-line">
+			<form onsubmit="Search();" action="javascript:void(0);">
+				<input type="text" id="search", name="search" placeholder="Search" {% if searchbox %} value="{{ searchbox }}"{% endif %}>
+			</form>
+		</div>
+		<div class="content">
+			<div class="content-body">
+				<div class="videobox" id="{{ video_id }}">
+					<iframe src="{{ uploader_url }}"></iframe>
+					<form onsubmit="update_tags();" action="javascript:void(0);">
+						<div class = "tag-box">
+							<div class = "tag-label">
+								TAGS:
+							</div>
+								<input class="tag-input" type="text" name="tags" id="tags" placeholder="Tags" oninput="tags_changed(this.value);" {% if tags %} value="{{ tags }}" {% endif %}>
+							<div class= "tag-button" id= "tag-button" onClick="update_tags();">
+								UPDATE
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-line"></div>
+	</body>
+</html>
