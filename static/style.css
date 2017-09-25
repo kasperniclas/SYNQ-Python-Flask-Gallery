@@ -1,5 +1,5 @@
 body{
-	background-color: #FFF;
+	background-color: #EEE;
 	display:table;
 	position: absolute;
 	height: 100%;
@@ -64,7 +64,7 @@ input[type=text] {
     border: none;
     border-radius: 4px;
     box-sizing: border-box;
-    color: #6ACEC7;
+    color: #333;
     font-weight: bold;
 }
 
