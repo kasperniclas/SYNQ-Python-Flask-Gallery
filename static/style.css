@@ -155,6 +155,9 @@ iframe{
 	width: 100%;
 	border:none;
 }
+.tag-input::placeholder {
+  color: red;
+}
 .tag-box .tag-input:focus{
 	outline: none;
 }
