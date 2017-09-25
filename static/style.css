@@ -136,7 +136,6 @@ iframe{
 	width: 1px;
 	padding-left: 20px;
 	padding-right: 0px;
-	vertical-align: middle;
 	color: #ccc;
 }
 .tag-box .tag-button{
@@ -144,10 +143,8 @@ iframe{
 	
 }
 .tag-box .tag-button.active{
-	background-color: blue;
-	color: #ffffff;
+	color: blue;
 	cursor: pointer;
-    height: 40px;
 	display: table-cell;
 }
 
