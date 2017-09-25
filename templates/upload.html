@@ -9,7 +9,7 @@
 		<div class="content">
 			<div class="content-body">
 				<div class="videobox" id="{{ video_id }}">
-					<iframe src="{{ uploader_url }}&skin.background=fafafa&skin.progress=abffe2&skin.text=333333" style="border-radius:2px; border-style:dotted; border-width:medium; border-color:#eeeeee; width:250px; height:250px;"></iframe>
+					<iframe src="{{ uploader_url }}&skin.background=fafafa&skin.progress=abffe2&skin.text=333333" style="border-radius:2px; border-style:dotted; border-width:medium; border-color:#eeeeee;"></iframe>
 					<form onsubmit="update_tags();" action="javascript:void(0);">
 						<div class = "tag-box">
 								<input class="tag-input" type="text" name="tags" id="tags" placeholder="Add tags" oninput="tags_changed(this.value);" {% if tags %} value="{{ tags }}" {% endif %}>
