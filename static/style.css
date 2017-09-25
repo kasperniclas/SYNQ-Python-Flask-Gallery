@@ -149,11 +149,11 @@ iframe{
 	background-color: blue;
 	color: #ffffff;
 	cursor: pointer;
+    height: 20px;
 }
 
 .tag-box .tag-input{
     width: 100%;
-    padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 1px solid #ccc;
@@ -161,6 +161,8 @@ iframe{
     transition: 0.5s;
     outline: none;
     border-radius: 2px;
+    height: 20px;
+    padding-right: 20px 50px;
 }
 .tag-input::placeholder {
   color: #ced3d9;
