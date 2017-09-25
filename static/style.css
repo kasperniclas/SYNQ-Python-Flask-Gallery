@@ -161,7 +161,8 @@ iframe{
 }
 .tag-input::placeholder {
   color: #ced3d9;
-  
+    font-size: 12;
+
 }
 .tag-box .tag-input:focus{
     border: 1px solid blue;
