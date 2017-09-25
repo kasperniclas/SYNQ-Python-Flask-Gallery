@@ -8,7 +8,7 @@
 			window.addEventListener('message', function (event) {
 	// Make sure the event is from the synq uploader iframe.
 				console.log(event.origin);
-	if(event.origin == "https://uploader.synq.fm/"){
+	if(event.origin == "https://uploader.synq.fm"){
 		eventObj = JSON.parse(event.data);
 		// Check if it's an upload complete event.
 		if(eventObj.event == "synqUploaderStatusChange" && eventObj.newStatus == "upload successful"){
