@@ -1,18 +1,18 @@
 <!doctype html>
 <html>
 	<head>
-		<title>SYNQ Video Gallery</title>
+		<title>SYNQ Demo</title>
 		<link href="/static/style.css" rel="stylesheet">
 		<script src="/static/app.js" ></script>
 	</head>
 	<body>
-		<div class="upload-button">
+		<!--<div class="upload-button">
 			<a href="/upload/">
 				<h2>
 					Upload Video
 				</h2>
 			</a>
-		</div>
+		</div>-->
 		<div class="title">
 			<h1>
 				<a href="/">
@@ -20,23 +20,23 @@
 				</a>
 			</h1>
 		</div>
-		<div class="top-line">
+		<!--<<div class="top-line">
 			<form onsubmit="Search();" action="javascript:void(0);">
 				<input type="text" id="search", name="search" placeholder="Search" {% if searchbox %} value="{{ searchbox }}"{% endif %}>
 			</form>
-		</div>
+		</div>-->
 		<div class="content">
 			<div class="content-body">
 				<div class="videobox" id="{{ video.video_id }}">
-					<iframe allowFullscreen src="{{video.player.embed_url }}"></iframe>
+					<iframe allowFullscreen src="{{video.player.embed_url }}" style="border:none; border-radius:4px;"></iframe>
 					<form onsubmit="update_tags();" action="javascript:void(0);">
 						<div class = "tag-box">
 							<div class = "tag-label">
-								TAGS:
+								Tags:
 							</div>
 								<input class="tag-input" type="text" name="tags" id="tags" placeholder="Tags" oninput="tags_changed(this.value);" {% if tagstring %} value="{{ tagstring }}" {% endif %}>
 							<div class= "tag-button" id= "tag-button" onClick="update_tags();">
-								UPDATE
+								Update tags
 							</div>
 						</div>
 					</form>
