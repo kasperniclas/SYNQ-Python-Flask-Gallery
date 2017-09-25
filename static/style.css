@@ -117,10 +117,10 @@ iframe{
 }
 
 .videobox{
-	background-color: #fafafa;
+	background-color: #FFF;
 	border-radius: 10px;
 	padding: 0px;
-	width: 68%;
+	width: 70%;
 	height: 100%;
 	box-sizing: border-box;
 	display: flex;
@@ -141,7 +141,7 @@ iframe{
 	display: table-cell;
 	width: 1px;
 	padding-left: 10px;
-	padding-right: 10px;
+	padding-right: 0px;
 	vertical-align: middle;
 	color: 333;
 	font-weight: bold;
