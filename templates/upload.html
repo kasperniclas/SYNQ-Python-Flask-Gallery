@@ -12,10 +12,7 @@
 					<iframe src="{{ uploader_url }}"></iframe>
 					<form onsubmit="update_tags();" action="javascript:void(0);">
 						<div class = "tag-box">
-							<div class = "tag-label">
-								TAGS:
-							</div>
-								<input class="tag-input" type="text" name="tags" id="tags" placeholder="Tags" oninput="tags_changed(this.value);" {% if tags %} value="{{ tags }}" {% endif %}>
+								<input class="tag-input" type="text" name="tags" id="tags" placeholder="Add taggs" oninput="tags_changed(this.value);" {% if tags %} value="{{ tags }}" {% endif %}>
 							<div class= "tag-button" id= "tag-button" onClick="update_tags();">
 								UPDATE
 							</div>
