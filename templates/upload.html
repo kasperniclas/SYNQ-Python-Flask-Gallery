@@ -6,11 +6,6 @@
 		<script src="/static/app.js" ></script>
 	</head>
 	<body>
-		<div class="top-line">
-			<form onsubmit="Search();" action="javascript:void(0);">
-				<input type="text" id="search", name="search" placeholder="Search" {% if searchbox %} value="{{ searchbox }}"{% endif %}>
-			</form>
-		</div>
 		<div class="content">
 			<div class="content-body">
 				<div class="videobox" id="{{ video_id }}">
