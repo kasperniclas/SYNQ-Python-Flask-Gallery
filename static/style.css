@@ -138,13 +138,12 @@ iframe{
 	padding-right: 0px;
 	vertical-align: middle;
 	color: 333;
-	font-weight: bold;
 }
 .tag-box .tag-button{
-	background-color: #05646f;
+	background-color: #transparent;
 }
 .tag-box .tag-button.active{
-	background-color: transparent;
+	background-color: #43bfa7;
 	cursor: pointer;
 }
 
