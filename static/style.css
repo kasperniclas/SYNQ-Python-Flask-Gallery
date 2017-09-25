@@ -148,7 +148,7 @@ iframe{
 	color: blue;
 	cursor: pointer;
 	display: table-cell;
-	font-weight: bold;
+	text-decoration: underline;
 }
 
 .tag-box .tag-input{
