@@ -9,10 +9,10 @@
 		<div class="content">
 			<div class="content-body">
 				<div class="videobox" id="{{ video_id }}">
-					<iframe src="{{ uploader_url }}"></iframe>
+					<iframe src="{{ uploader_url }}?"></iframe>
 					<form onsubmit="update_tags();" action="javascript:void(0);">
 						<div class = "tag-box">
-								<input class="tag-input" type="text" name="tags" id="tags" placeholder="Add taggs" oninput="tags_changed(this.value);" {% if tags %} value="{{ tags }}" {% endif %}>
+								<input class="tag-input" type="text" name="tags" id="tags" placeholder="Add tags" oninput="tags_changed(this.value);" {% if tags %} value="{{ tags }}" {% endif %}>
 							<div class= "tag-button" id= "tag-button" onClick="update_tags();">
 								UPDATE
 							</div>
