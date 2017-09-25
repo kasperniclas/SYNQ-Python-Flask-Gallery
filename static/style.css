@@ -156,7 +156,7 @@ iframe{
 	border:none;
 }
 .tag-input::placeholder {
-  color: red;
+  color: #ced3d9;
 }
 .tag-box .tag-input:focus{
 	outline: none;
