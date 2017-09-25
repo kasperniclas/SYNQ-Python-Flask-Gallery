@@ -141,9 +141,13 @@ iframe{
 }
 .tag-box .tag-button{
 	background-color: #transparent;
+	margin-left: -50px;
+	
 }
 .tag-box .tag-button.active{
-	background-color: #43bfa7;
+	margin-left: -50px;
+	background-color: blue;
+	color: #ffffff;
 	cursor: pointer;
 }
 
