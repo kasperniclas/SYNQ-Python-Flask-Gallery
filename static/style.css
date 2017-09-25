@@ -149,15 +149,20 @@ iframe{
 }
 
 .tag-box .tag-input{
-	margin: 0;
-	border-radius: 0;
-	display: table-cell;
-	width: 100%;
-	border:none;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 2px;
 }
 .tag-input::placeholder {
   color: #ced3d9;
+  
 }
 .tag-box .tag-input:focus{
-	outline: none;
+    border: 1px solid #555;
 }
