@@ -13,7 +13,7 @@
 		// Check if it's an upload complete event.
 		if(eventObj.event == "synqUploaderStatusChange" && eventObj.newStatus == "upload successful"){
 			// Upload completed successfully. Redirect the user to the frontpage.
-			 window.location.href = "player.synq.fm/{{ video_id }}";
+			 window.location.href == "https://player.synq.fm/embed/{{ video_id }}";
 		}
 	}
 }, true);
