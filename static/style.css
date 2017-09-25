@@ -146,16 +146,17 @@ iframe{
 	
 }
 .tag-box .tag-button.active{
-	margin-left: -50px;
+	padding-left: 30px;
 	background-color: blue;
 	color: #ffffff;
+	text-weight: bold;
 	cursor: pointer;
     height: 40px;
 }
 
 .tag-box .tag-input{
     width: 100%;
-    margin: 8px 0;
+    margin: 20px;
     box-sizing: border-box;
     border: 1px solid #ccc;
     -webkit-transition: 0.5s;
@@ -163,12 +164,11 @@ iframe{
     outline: none;
     border-radius: 2px;
     height: 40px;
-    padding-right: 20px 50px;
 }
 .tag-input::placeholder {
   color: #ced3d9;
   
 }
 .tag-box .tag-input:focus{
-    border: 1px solid #555;
+    border: 1px solid blue;
 }
