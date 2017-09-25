@@ -4,6 +4,19 @@
 		<title>SYNQ Demo - Upload</title>
 		<link href="/static/style.css" rel="stylesheet">
 		<script src="/static/app.js" ></script>
+		<script>
+			window.addEventListener('message', function (event) {
+	// Make sure the event is from the synq uploader iframe.
+	if(event.origin == "https://uploader.synq.fm/*"){
+		eventObj = JSON.parse(event.data);
+		// Check if it's an upload complete event.
+		if(eventObj.event == "synqUploaderStatusChange" && eventObj.newStatus == "upload successful"){
+			// Upload completed successfully. Redirect the user to the frontpage.
+			 window.location.href = "/post/?video={{ video_id }}";
+		}
+	}
+}, false);
+</script>
 	</head>
 	<body>
 		<div class="content">
