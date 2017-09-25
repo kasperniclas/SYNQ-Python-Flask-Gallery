@@ -34,7 +34,7 @@ a{
 	text-decoration: none;
 }
 
-.upload-button{
+/**.upload-button{
 	background-color: #27c16e;
 	position: absolute;
 	top: 0;
@@ -45,6 +45,7 @@ a{
 	border-radius: 4px;
 	color: #F2F2F2;
 }
+**/
 
 .title{
 	color:#555;
@@ -118,8 +119,8 @@ iframe{
 .videobox{
 	background-color: #fafafa;
 	border-radius: 10px;
-	padding: 25px;
-	width: 100%;
+	padding: 0px;
+	width: 68%;
 	height: 100%;
 	box-sizing: border-box;
 	display: flex;
