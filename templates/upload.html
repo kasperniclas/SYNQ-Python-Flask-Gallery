@@ -1,25 +1,11 @@
 <!doctype html>
 <html>
 	<head>
-		<title>SYNQ Video GAllery</title>
+		<title>SYNQ Demo - Upload</title>
 		<link href="/static/style.css" rel="stylesheet">
 		<script src="/static/app.js" ></script>
 	</head>
 	<body>
-		<div class="upload-button">
-			<a href="/upload/">
-				<h2>
-					Upload Video
-				</h2>
-			</a>
-		</div>
-		<div class="title">
-			<h1>
-				<a href="/">
-					SYNQ Video Gallery
-				</a>
-			</h1>
-		</div>
 		<div class="top-line">
 			<form onsubmit="Search();" action="javascript:void(0);">
 				<input type="text" id="search", name="search" placeholder="Search" {% if searchbox %} value="{{ searchbox }}"{% endif %}>
