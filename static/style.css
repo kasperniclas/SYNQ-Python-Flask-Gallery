@@ -134,29 +134,26 @@ iframe{
 .tag-box .tag-button{
 	display: table-cell;
 	width: 1px;
-	padding-left: 0px;
+	padding-left: 20px;
 	padding-right: 0px;
 	vertical-align: middle;
-	color: #333;
-	text-color: #cccccc;
+	color: #ccc;
 }
 .tag-box .tag-button{
-	background-color: #transparent;
 	margin-left: -50px;
 	
 }
 .tag-box .tag-button.active{
-	padding-left: 30px;
 	background-color: blue;
 	color: #ffffff;
-	text-weight: bold;
 	cursor: pointer;
     height: 40px;
+	display: table-cell;
 }
 
 .tag-box .tag-input{
     width: 100%;
-    margin: 20px;
+    margin-top: 20px;
     box-sizing: border-box;
     border: 1px solid #ccc;
     -webkit-transition: 0.5s;
