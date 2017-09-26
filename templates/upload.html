@@ -13,9 +13,10 @@
 		// Check if it's an upload complete event.
 		if(eventObj.event == "synqUploaderStatusChange" && eventObj.newStatus == "upload successful"){
 			// Upload completed successfully. Redirect the user to the frontpage.
-			setTimeout(function()) {
+			var myTimer = {};
+			myTimer = $.timer(3000, function() {
 			 window.location.href = "https://player.synq.fm/embed/{{ video_id }}";
-		 }, 3500);
+		 });
 		}
 	}
 }, true);
@@ -25,7 +26,7 @@
 		<div class="content">
 						<div class="content-body">
 							
-							<p align="center"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								 width="170px" height="40px" viewBox="0 0 275 64" enable-background="new 0 0 275 64" xml:space="preserve">
 							<g>
 								<g>
@@ -73,7 +74,8 @@
 									s-1.512,7.544-4.266,10.297C61.706,32.309,58.048,33.824,54.155,33.824z"/></p>
 							</g>
 							</svg>
-							
+						</br>
+						
 							<p>Use this page to test the video uploading and playback functionality of the SYNQ API.</p>
 					
 							
