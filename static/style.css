@@ -1,5 +1,5 @@
 body{
-	background-color: #EEE;
+	background-color: #FAFAFA;
 	display:table;
 	position: absolute;
 	height: 100%;
@@ -39,19 +39,6 @@ a{
 	color: inherit;
 	text-decoration: none;
 }
-
-/**.upload-button{
-	background-color: #27c16e;
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 200px;
-	height: 50px;
-	text-align: center;
-	border-radius: 4px;
-	color: #F2F2F2;
-}
-**/
 
 .title{
 	color:#555;
