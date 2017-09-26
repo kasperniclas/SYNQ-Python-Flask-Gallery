@@ -106,7 +106,7 @@ input[type=text] {
 iframe{
    	position: relative;
 	width: 100%;
-	padding-top: 56.25%; /* 16:9 Aspect Ratio */
+	max-height: 56%;
  }
 
 .videobox{
