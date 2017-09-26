@@ -37,6 +37,8 @@ td{
 
 .logo {
 	box-sizing: border-box;
+	width: 80%;
+	height: 100%;
 }
 
 a{
@@ -114,7 +116,7 @@ iframe{
 }
 
 .videobox{
-	width: 70%;
+	width: 80%;
 	height: 100%;
 	display: flex;
 	flex-direction:column;
